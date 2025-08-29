@@ -1,0 +1,26 @@
+<page> 4b "Useless" "NULL" 0 0 0 320 1e0 3 1 1
+<rule>
+38d101 1 1 1 1 480405 0 1 6 12ffffff 
+38d102 2 c 2 6 0 1 0 1 3 12c80408 1 "OptionToMusic" 1 1 48042e 0 4 6 6ffffff 0 1 0 0 0 0 1 1 6 0 1 0 1 3 12c80408 1 "OptionToVideo" 1 1 48042e 0 4 6 a7fffff 0 1 0 0 0 0 1 0 2 2 6 0 2 0 1 3 12c80408 1 "CopyToDel" 1 1 3 12c80408 1 "PhotoToDel" 3 1 483000 481005 3 0 1 0 2 1 "NAND" 2 481012 1 "del" 1 48042e 0 4 6 83fffff 0 1 0 0 0 0 1 1 6 0 1 0 1 3 12c80408 1 "DelToCopy" 3 2 481005 3 48107d 2 481012 1 "copy" 1 48042e 0 4 6 83fffff 0 1 0 0 0 0 1 0 2 2 
+38d103 1 1 1 1 481403 12c80408 1 1 "CopyDelTurn" 
+<window> 1 "Wnd1" 0 0 0 320 1e0 0 1
+<rule>
+<ctrl> 1 "Variables_1" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 

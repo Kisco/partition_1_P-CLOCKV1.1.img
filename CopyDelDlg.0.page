@@ -1,0 +1,259 @@
+<page> 21 "CopyDelDlg" "NULL" 0 0 0 320 1e0 b 1 1
+<rule>
+38d101 c 23 c a 8081802 0 1 0 0 1 8082002 0 1 0 0 2 8483404 0 5 2 8483405 0 1 1 8482c00 0 0 1 8483000 0 0 6 0 1 0 1 3 481012 1 "copy" 1 1 480806 0 6 0 1 0 63 6 8481bff 3 48b810 0 0 0 16 1 1 6 0 1 0 1 3 481012 1 "del" 1 1 480806 0 6 0 1 0 64 6 8481bff 3 48b810 0 0 0 16 1 0 2 2 1 8482000 0 0 1 8480817 0 1 1 "Mark.Select==1" a 8480c00 0 2 3 481005 0 8 1 481407 8480408 1 1 "s_result" 6 0 1 0 1 3 8480408 1 "SUCCESS" 2 6 0 1 0 1 3 481012 1 "copy" 2 1 483000 848040f 3 0 1 0 2 1 "NAND" 1 8481001 0 2 3 848040f 0 0 1 1 1 8481000 0 1 0 0 2 9 1 1 6 0 1 0 1 3 481012 1 "copy" 7 1 488008 848040f 5 1 "" 1 "" 0 5a 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 848040f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "NoImportFileErr" 6 ffffff 0 1 1 480405 0 1 6 87fffff 1 480405 0 1 6 83fffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 9 1 7 1 488008 848040f 5 1 "" 1 "" 0 5b 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 848040f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "NoDelFileErr" 6 ffffff 0 1 1 480405 0 1 6 87fffff 1 480405 0 1 6 83fffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 9 2 2 
+38d102 4 5 4 1 480404 0 1 1 "copydel_fail_unmount" 6 0 1 0 1 3 481012 1 "del" 1 2 481070 0 1 1 0 2 2 48a40c 0 0 1 480809 0 4 0 1 6 84817ff 0 0 0 1 
+38d103 2 2 2 2 48a40c 0 1 1 481402 8480400 1 1 "TotalFile" 
+33968003 1 1 1 9 
+1e89805 2 2 2 1 8481005 0 0 1 480403 0 7 6 87fffff 1 "copydel_fail_unmount" 0 a 1 "" 0 0 0 0 0 0 
+1e89800 5 e 5 6 0 1 0 1 3 481012 1 "del" 1 6 0 1 0 1 3 481084 0 1 5 1 483000 48e008 3 0 1 0 2 1 "NAND" 1 48dc02 0 0 a 48dc00 0 2 3 48e008 0 8 1 481407 48e009 1 1 "s_result" 6 0 1 0 2 3 48e009 1 "SUCCESS" 2 2 481084 0 0 1 481803 0 2 1 "pre_installe" 3 481084 1 0 2 1 0 2 1 0 2 1 481401 0 4 1 "FinishType" 1 "CopyDelFinish" 6 bfffff 0 1 1 480405 0 1 6 87fffff 6 0 1 0 1 3 481012 1 "del" 1 1 480405 0 1 6 83fffff 1 0 2 1 48042e 0 4 6 bfffff 0 1 0 0 0 0 
+1e89803 3 4 3 1 8482002 0 4 0 1 0 0 0 0 5 3 9 6 0 1 0 1 5 3 0 64 1 2 8480401 0 1 1 0 2 
+4d5fbe00 3 2a 3 6 0 1 0 1 3 48105f 0 1 2 6 0 1 0 2 5 0 0 10 1 5 1 0 2 9 1 0 2 6 0 2 0 1 5 0 0 10 1 1 5 0 0 9b d 1 8481005 0 0 2 8082814 0 0 2 8082c14 0 0 2 8083014 0 0 2 8083414 0 0 2 8083814 0 0 2 8083c14 0 0 2 8084014 0 0 1 480405 0 1 6 87fffff 1 480400 0 1 6 83fffff 3 4d5fbe00 83fffff 2 0 e 1 "" 5 9 1 0 2 6 0 1 0 1 5 0 0 97 6 1 480c00 481038 2 3 481038 0 5 6 0 1 0 3 3 481038 0 f 3 2 481038 0 0 1 480404 0 1 1 "night2sleep" 2 481057 0 0 1 3 1 480404 0 1 1 "night2sleep" 2 481057 0 0 6 0 1 0 1 3 481038 0 f 2 2 481057 0 1 6 0 1 0 1 3 481035 0 0 2 1 480404 0 1 1 "night2sleep" 1 480403 0 7 6 ffffffff 1 "night2sleep" 0 32 1 "" 0 0 0 0 0 0 1 0 2 1 0 2 2 1 485c00 0 1 3 481038 1 481803 0 2 1 "BackLightCx" 3 481038 5 9 1 1 6 0 2 0 1 3 48102f 0 1 1 1 3 481035 0 1 1 6 0 2 0 1 5 0 0 29 0 4 3 481037 0 1f 2 1 480c00 481037 2 3 481037 0 1 1 488413 0 2 3 481037 0 0 1 1 6 0 2 0 1 5 0 0 28 0 3 3 481037 0 1 2 1 480c01 481037 2 3 481037 0 1 1 488413 0 2 3 481037 0 0 1 0 2 2 1 0 2 2 
+1e89802 5 5 5 1 480809 0 4 0 1 6 8482bff 0 ff000000 0 1 1 483c07 848040f 1 5 0 1 8483401 0 4 3 848040f 0 16 0 16 3 48b810 1 8482000 0 0 9 
+2230ee00 1 3 1 6 0 1 0 1 5 2 3 481005 2 1 8481005 0 0 2 8480409 1 "unmount" 1 0 2 
+38d105 1 15 1 6 0 1 0 1 5 0 1 "copydel_fail_unmount" 1 6 0 1 0 1 3 8480409 1 "unmount" 6 1 488008 848040f 5 1 "" 1 "" 0 65 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 848040f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "UnmountErr" 6 ffffff 0 1 1 480405 0 1 6 87fffff 1 480405 0 1 6 83fffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 1 3 6 0 1 0 1 3 8480400 0 0 3 6 0 1 0 1 3 481012 1 "copy" 1 1 488008 848040f 5 1 "" 1 "" 0 66 0 ffffffff 0 5 1 1 1 488008 848040f 5 1 "" 1 "" 0 67 0 ffffffff 0 5 2 1 481401 0 4 1 "ErrorMsg" 3 848040f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "CopyDelUnexceedErr" 6 ffffff 0 1 1 3 6 0 1 0 1 3 481012 1 "copy" 1 1 488008 848040f 5 1 "" 1 "" 0 68 0 ffffffff 0 5 1 1 1 488008 848040f 5 1 "" 1 "" 0 69 0 ffffffff 0 5 2 1 481401 0 4 1 "ErrorMsg" 3 848040f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "CopyDelExceedErr" 6 ffffff 0 1 2 1 480405 0 1 6 87fffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 2 1 0 2 
+<window> 1 "Win" 0 0 0 320 1e0 0 d
+<rule>
+<ctrl> 1 "val" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 2 "GeneralFileTree" "GeneralFileTree" 0 0 18
+<rule>
+<prop>
+482fff 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+0 
+0 
+0 
+0 
+5
+"Audio" 
+"Photo" 
+"Video" 
+"Video2" 
+"Video3" 
+1
+"Mark.Select" 
+<ctrl> 3 "GeneralFileList" "GeneralFileList" 0 0 b
+<rule>
+<prop>
+8480bff 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+0 
+0 
+"" 
+<ctrl> 4 "GeneralFileOp" "GeneralFileOp" 0 0 6
+<rule>
+<prop>
+8480fff 
+1c 
+0 
+"" 
+0 
+0 
+<ctrl> 5 "rectBG" "Rect" 0 0 4
+<rule>
+<prop>
+8a 
+8e 
+20c 
+c4 
+<ctrl> 6 "rectText" "Rect" 0 0 4
+<rule>
+<prop>
+91 
+96 
+1ff 
+26 
+<ctrl> 7 "rectFilename" "Rect" 0 0 4
+<rule>
+<prop>
+91 
+be 
+1ff 
+32 
+<ctrl> 8 "uInfoBar" "uInfoBar" 0 0 1a
+<rule>
+<prop>
+a5 
+f5 
+1e0 
+3 
+"" 
+1 
+0 
+0 
+ff232323 
+ffc09b01 
+0 
+0 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+0
+0
+<ctrl> 9 "rectCancel" "Rect" 0 0 4
+<rule>
+<prop>
+147 
+10d 
+92 
+3d 
+<ctrl> a "rectProgress" "Rect" 0 0 4
+<rule>
+<prop>
+a5 
+f5 
+1e0 
+3 
+<ctrl> b "ibtnBg" "uIconButton" 0 0 30
+<rule>
+<prop>
+8a 
+8e 
+14 
+14 
+ffffffff 
+"" 
+0 
+20007 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+20007 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> c "ibtnCancel" "uIconButton" 0 0 30
+<rule>
+<prop>
+147 
+10d 
+92 
+3d 
+ffffffff 
+"" 
+0 
+20006 
+ffffffff 
+0 
+0 
+6a 
+ffffffff 
+160000 
+17 
+17 
+20006 
+ffffffff 
+0 
+0 
+6a 
+ffffffff 
+160000 
+17 
+17 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> d "uDrawText" "uDrawText" 0 0 6
+<rule>
+<prop>
+91 
+be 
+1ff 
+32 
+0 
+0 

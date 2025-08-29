@@ -1,0 +1,230 @@
+<page> 1f "PhotoPlay" "Palet1.plt" 0 0 0 320 1e0 b 1 0
+<rule>
+38d103 9 12 9 1 7c82800 0 0 1 481402 7c80407 1 1 "PlayingPos" a 7c80400 7c82001 2 3 481005 0 8 1 481407 7c8200f 1 1 "s_result" 6 0 1 0 1 3 7c8200f 1 "SUCCESS" 3 2 487407 0 ffffffff 2 487401 0 0 1 7c80c01 0 1 0 0 1 6 1 488008 7c8200f 5 1 "" 1 "" 0 52 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 7c8200f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "NoPhotoErr" 6 ffffff 0 1 1 480405 0 1 6 7ffffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 9 2 2 48104b 6 7ffffff 1 489800 0 1 0 23 1 48042e 0 4 6 43fffff 0 1 0 0 0 0 9 
+4d5fbe00 6 40 6 1 480404 0 1 1 "keyout" 1 480403 0 7 6 7ffffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 6 0 5 0 1 5 0 0 e 1 1 5 0 0 f 1 1 5 0 0 10 1 1 5 0 0 9d 1 1 5 0 0 15 1 6 0 1 0 1 3 7c82003 0 1 2 5 9 1 0 2 1 0 2 6 0 2 0 1 5 0 0 11 1 1 5 0 0 9b 8 1 480809 0 4 0 0 6 7c813ff 0 0 0 1 1 480809 0 4 0 0 6 7c813ff 0 0 0 1 1 480809 0 4 0 0 6 7c827ff 0 0 0 1 2 481056 3 7c80c12 1 480405 0 1 6 7ffffff 1 48042e 0 4 6 7bfffff 0 1 0 0 0 0 5 9 1 1 6 0 2 0 1 5 0 0 10 0 1 3 7c82000 0 1 5 1 7c81801 0 0 1 7c81c01 0 0 6 0 2 0 1 3 481015 0 0 1 2 3 481035 0 1 4 1 481400 0 4 1 "PageConfirmType" 0 0 6 17fffff 0 1 1 481400 0 4 1 "PhotoPlayPos" 3 7c80c12 6 17fffff 0 1 1 48041b 0 1 6 7ffffff 1 48042e 0 4 6 17fffff 0 1 0 0 0 0 1 1 6 0 1 0 1 3 481035 0 1 2 1 48041b 0 1 6 7ffffff 1 48042e 0 4 6 13fffff 0 1 0 0 0 0 1 0 2 2 5 9 1 0 2 2 6 0 3 0 1 5 0 0 e 1 1 5 0 0 a8 1 1 5 0 0 ae 1 6 0 1 0 1 3 7c82002 0 1 5 2 7c82008 1 "left" 2 7c82003 0 1 1 7c80c05 0 1 0 0 5 9 1 0 2 1 1 6 0 3 0 1 5 0 0 f 1 1 5 0 0 a9 1 1 5 0 0 af 1 6 0 1 0 1 3 7c82002 0 1 5 2 7c82008 1 "right" 2 7c82003 0 1 1 7c80c04 0 1 0 0 5 9 1 0 2 1 0 2 2 6 0 1 0 1 3 481035 0 1 1 6 0 1 0 1 3 481053 1 "/mnt/IPOD/ipod01" 1 6 0 1 0 1 5 0 0 93 7 1 482003 0 0 1 48a409 0 1 0 3e8 1 48a40d 0 0 1 48a415 0 1 0 0 1 48a409 0 1 0 3e8 5 9 1 0 2 1 1 6 0 2 0 1 5 0 0 1d 0 2 3 482010 0 1 5 1 488010 48200f 2 3 48200f 0 1 2 481060 0 0 1 482001 0 1 0 0 5 9 1 1 6 0 2 0 1 5 0 0 1d 0 1 3 482010 0 1 5 1 488010 48200f 2 3 48200f 0 0 2 481060 0 1 1 482003 0 0 5 9 1 0 2 2 2 1 0 2 
+38d101 4 4 4 1 7c81800 0 0 1 7c81c00 0 0 1 480404 0 1 1 "keyout" 1 480403 0 7 6 7ffffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 
+38d107 5 5 5 1 480404 0 1 1 "keyout" 1 480403 0 7 6 7ffffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 1 480400 0 1 6 43fffff 1 7c81800 0 0 1 7c81c00 0 0 
+38d102 a a a 1 480404 0 1 1 "keyout" 1 480404 0 1 1 "WaitPicFail" 1 480413 0 2 2 20058 0 1 1 7c81801 0 0 1 7c81c01 0 0 2 487401 3 481043 1 480809 0 4 0 0 6 7c813ff 0 0 0 1 1 480809 0 4 0 0 6 7c817ff 0 0 0 1 1 480405 0 1 6 43fffff 1 7c82801 0 0 
+2230ee00 1 1 1 9 
+38d105 1 f 1 6 0 1 0 1 5 0 1 "photo_duration" 3 1 7c80c04 0 1 0 0 5 9 1 1 6 0 1 0 1 5 0 1 "keyout" 7 1 480809 0 4 0 0 6 7c813ff 0 0 0 1 1 480809 0 4 0 0 6 7c813ff 0 0 0 1 1 480809 0 4 0 0 6 7c827ff 0 0 0 1 1 480405 0 1 6 7ffffff 1 48042e 0 4 3 48104d 0 1 0 0 0 0 5 9 1 1 6 0 1 0 1 5 0 1 "WaitPicFail" 2 2 7c82000 0 1 2 7c82002 0 1 1 0 2 2 2 
+15287205 8 8 8 1 488008 7c8200f 5 1 "" 1 "" 0 59 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 7c8200f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "PlayPhotoErr" 6 ffffff 0 1 2 7c82009 1 "FailFlag" 1 48041b 0 1 6 7ffffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 2 7c82003 0 0 9 
+38d106 2 2 2 1 48041b 0 1 6 43fffff 1 480404 0 1 1 "keyout" 
+15287204 8 8 8 1 488008 7c8200f 5 1 "" 1 "" 0 59 0 ffffffff 0 5 1 481401 0 4 1 "ErrorMsg" 3 7c8200f 6 ffffff 0 1 1 481401 0 4 1 "ErrorType" 1 "PlayPhotoErr" 6 ffffff 0 1 2 7c82009 1 "FailFlag" 1 48041b 0 1 6 7ffffff 1 48042e 0 4 6 ffffff 0 1 0 0 0 0 2 7c82003 0 0 9 
+2e8600 4 4 4 2 7c82002 0 0 2 7c82003 0 0 1 480404 0 1 1 "WaitPicFail" 1 480403 0 7 6 7ffffff 1 "WaitPicFail" 0 2 1 "" 0 0 0 0 0 0 
+<window> 1 "Win" 0 0 0 320 1e0 0 a
+<rule>
+<ctrl> 1 "GeneralFileList_Pic" "GeneralFileList" 0 0 b
+<rule>
+<prop>
+7c80bff 
+0 
+0 
+1 
+0 
+"" 
+0 
+0 
+0 
+0 
+"" 
+<ctrl> 2 "GeneralFileTree_Pic" "GeneralFileTree" 0 0 1a
+<rule>
+<prop>
+482fff 
+1 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+2 
+0 
+0 
+0 
+0 
+0 
+1
+"Photo" 
+7
+"FileSize" 
+"jpginfo.width" 
+"jpginfo.height" 
+"ModifiedTime.Year" 
+"ModifiedTime.Month" 
+"ModifiedTime.Day" 
+"Mark.Copy_Del" 
+<ctrl> 3 "BatchPlayer" "BatchPlayer" 0 0 18
+<rule>
+<prop>
+7c807ff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1002 
+ffffffff 
+0 
+0 
+"" 
+0 
+0
+1
+4877ff 
+<ctrl> 4 "rectPrev" "Rect" 0 0 4
+<rule>
+<prop>
+8 
+d6 
+41 
+36 
+<ctrl> 5 "rectNext" "Rect" 0 0 4
+<rule>
+<prop>
+2cf 
+d6 
+41 
+36 
+<ctrl> 6 "ibtnPrev" "uIconButton" 0 0 30
+<rule>
+<prop>
+8 
+d6 
+41 
+36 
+ffffffff 
+"" 
+0 
+100de 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+100de 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 7 "ibtnNext" "uIconButton" 0 0 30
+<rule>
+<prop>
+2cf 
+d6 
+41 
+36 
+ffffffff 
+"" 
+0 
+100df 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+100df 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 8 "Variables" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+"right" 
+"__NULL__" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 9 "Rect_back" "Rect" 0 0 4
+<rule>
+<prop>
+5 
+c6 
+311 
+54 
+<ctrl> a "uSet_LCDclock" "uSet_LCDclock" 0 0 0
+<rule>
+<prop>

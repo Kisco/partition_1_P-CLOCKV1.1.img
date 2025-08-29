@@ -1,0 +1,186 @@
+<page> 2a "iPodMenu" "NULL" 0 0 0 320 1e0 6 1 1
+<rule>
+38d101 8 8 8 1 480413 0 2 2 20059 0 1 1 480805 0 6 0 1 0 8d 6 a881bff 3 48b810 0 0 0 16 1 a881c02 0 2 1 "ibtnMusic" 6 a8823ff 1 a881c02 0 2 1 "ibtnVideo" 6 a8827ff 2 48104b 6 abfffff 1 489800 0 1 0 26 1 48042e 0 4 6 43fffff 0 1 0 0 0 0 1 480403 0 7 6 abfffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 
+38d102 2 2 2 1 480809 0 4 0 1 6 a8807ff 0 0 0 1 1 480405 0 1 6 43fffff 
+162f01 5 51 5 1 480409 48105e 0 6 0 1 0 1 3 48a40c 0 1 2 5 9 1 0 2 6 0 1 0 1 3 48a40a 0 0 6 1 48c000 0 1 6 10bfffff 2 48105f 0 1 1 481401 0 4 1 "IPOD_ERROR_MESSAGE" 1 "MESSAGE_NOTPLUGIN" 6 10bfffff 0 1 a 48042e 0 4 6 10bfffff 0 1 0 0 0 0 5 9 1 1 6 0 4 0 2 3 48a40d 0 1 0 2 3 48a40d 0 0 0 2 3 48a40d 0 ffffffff 0 2 3 48a40d 0 fffffffe 6 1 48c000 0 1 6 10bfffff 2 48105f 0 1 1 481401 0 4 1 "IPOD_ERROR_MESSAGE" 1 "MESSAGE_NOTAUTH" 6 10bfffff 0 1 a 48042e 0 4 6 10bfffff 0 1 0 0 0 0 5 9 1 1 6 0 2 0 1 3 48a40d 0 ffffffff 1 1 3 48a40d 0 fffffffe 2 5 9 1 0 2 2 2 6 0 1 0 1 3 a881c0c 1 "ibtnMusic" 8 2 481035 0 1 2 48a40e 0 2 1 480405 0 1 6 abfffff 6 0 1 0 1 3 48102f 0 1 4 2 48102f 0 0 1 488401 0 0 1 48b001 0 1 0 2 6 0 1 0 1 3 48a40d 0 1 5 1 481401 0 4 1 "IPOD_INIT" 1 "NEED_INIT" 6 37fffff 0 1 1 482002 0 1 0 0 1 48a40d 0 0 1 48a414 0 1 0 0 1 48a409 0 1 0 3e8 1 1 6 0 1 0 1 3 48a40d 0 0 5 1 481401 0 4 1 "IPOD_INIT" 1 "SETCHANNEL" 6 37fffff 0 1 1 482002 0 1 0 0 1 48a40d 0 0 1 48a414 0 1 0 0 1 48a409 0 1 0 3e8 1 0 2 2 1 2 1 48b001 0 1 0 2 6 0 2 0 1 3 48a40d 0 1 0 2 3 481053 1 "/mnt/IPOD/ipod01" 5 1 481401 0 4 1 "IPOD_INIT" 1 "NEED_INIT" 6 37fffff 0 1 1 482002 0 1 0 0 1 48a40d 0 0 1 48a414 0 1 0 0 1 48a409 0 1 0 3e8 1 1 6 0 2 0 1 3 48a40d 0 0 0 2 3 481053 1 "/mnt/IPOD/ipod01" 5 1 481401 0 4 1 "IPOD_INIT" 1 "SETCHANNEL" 6 37fffff 0 1 1 482002 0 1 0 0 1 48a40d 0 0 1 48a414 0 1 0 0 1 48a409 0 1 0 3e8 1 0 2 2 2 6 0 1 0 2 3 481053 1 "/mnt/IPOD/ipod01" 2 2 481054 3 481053 2 481053 1 "/mnt/IPOD/ipod01" 1 0 2 1 48042e 0 4 6 37fffff 0 2 0 0 0 0 5 9 1 0 2 6 0 1 0 1 3 a881c0c 1 "ibtnVideo" b 6 0 5 0 1 3 48a40f 0 c 1 1 3 48a40f 0 10 1 1 3 48a40f 0 4 1 1 3 48a40f 0 5 1 1 3 48a40f 0 7 6 1 48c000 0 1 6 10bfffff 2 48105f 0 1 1 481401 0 4 1 "IPOD_ERROR_MESSAGE" 1 "MESSAGE_VIDEONOTSUPPORT" 6 10bfffff 0 1 a 48042e 0 4 6 10bfffff 0 1 0 0 0 0 5 9 1 0 2 6 0 1 0 1 3 481053 1 "/mnt/IPOD/ipod01" 1 2 481053 3 481054 1 0 2 6 0 1 0 1 3 48102f 0 1 2 2 48102f 0 0 1 488401 0 0 1 0 2 1 482002 0 1 0 0 2 48a40e 0 1 1 48a408 0 0 2 481005 1 "/mnt/IPOD/ipod01" 1 480405 0 1 6 abfffff 1 48042e 0 4 6 a3fffff 0 1 0 0 0 0 5 9 1 0 2 
+4d5fbe00 6 12 6 1 480404 0 1 1 "keyout" 6 0 1 0 1 5 0 0 9b 4 1 480405 0 1 6 abfffff 1 48042e 0 4 6 6bfffff 0 1 0 0 0 0 5 9 1 0 2 6 0 2 0 1 5 0 0 37 1 1 5 0 0 a6 3 3 4d5fbe00 a881fff 2 0 e 1 "" 5 9 1 0 2 6 0 2 0 1 5 0 0 36 1 1 5 0 0 a7 3 3 4d5fbe00 a881fff 2 0 f 1 "" 5 9 1 0 2 6 0 2 0 1 5 0 0 c 1 1 5 0 0 d 2 5 9 1 0 2 1 480403 0 7 6 abfffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 
+2230ee00 1 3 1 6 0 2 0 1 5 2 1 "/mnt/IPOD/ipod01" 0 3 3 48a401 0 0 2 1 480405 0 1 6 abfffff 1 48042e 0 4 6 9ffffff 0 2 0 0 0 0 1 0 2 
+38d105 1 3 1 6 0 1 0 1 5 0 1 "keyout" 2 1 480405 0 1 6 abfffff 1 48042e 0 4 3 48104d 0 1 0 0 0 0 1 0 2 
+<window> 1 "Win" 0 0 0 320 1e0 0 9
+<rule>
+<ctrl> 1 "RectBG" "Rect" 0 0 4
+<rule>
+<prop>
+0 
+0 
+320 
+1e0 
+<ctrl> 2 "RectMusic" "Rect" 0 0 4
+<rule>
+<prop>
+fb 
+94 
+84 
+9a 
+<ctrl> 3 "RectVideo" "Rect" 0 0 4
+<rule>
+<prop>
+1a0 
+94 
+84 
+9a 
+<ctrl> 4 "Variables" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 5 "Rect_HeaderBG" "Rect" 0 0 4
+<rule>
+<prop>
+0 
+0 
+320 
+2a 
+<ctrl> 6 "Rect_Title" "Rect" 0 0 4
+<rule>
+<prop>
+2a 
+a 
+bc 
+19 
+<ctrl> 7 "ButtonGroup" "ButtonGroup" 0 0 13
+<rule>
+<prop>
+a 
+a 
+14 
+14 
+0 
+0 
+0 
+0 
+0 
+4 
+0 
+0 
+"" 
+0 
+0 
+2
+a880bff 
+a880fff 
+0
+<ctrl> 8 "uIbtnMusic" "uIconButton2" 0 0 2f
+<rule>
+<prop>
+fb 
+94 
+84 
+9a 
+1 
+"" 
+0 
+2004a 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+20061 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0
+0
+<ctrl> 9 "uIbtnVideo" "uIconButton2" 0 0 2f
+<rule>
+<prop>
+1a0 
+94 
+84 
+9a 
+0 
+"" 
+0 
+2003c 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+20062 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0
+0

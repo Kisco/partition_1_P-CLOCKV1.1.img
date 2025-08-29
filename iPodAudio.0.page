@@ -1,0 +1,22 @@
+<page> 3e "iPodAudio" "Palet1.plt" 0 0 0 320 1e0 4 1 0
+<rule>
+38d101 3 3 3 1 480413 0 2 2 20088 0 1 1 f880400 0 4 0 12c 1 "Unknow" 1 "Unknow" 1 "Unknow" 1 f880401 0 3 0 1 0 c8 0 64 
+38d103 1 1 1 1 f880801 0 1 0 2 
+4d5fbe00 1 6 1 6 0 1 0 1 5 0 0 9b 5 1 f880800 0 0 1 480405 0 1 6 fbfffff 1 48042e 0 4 6 abfffff 0 1 0 0 0 0 5 9 1 0 2 
+38d102 1 1 1 1 480809 0 4 0 0 6 f880fff 0 0 0 1 
+<window> 1 "Wnd1" 0 0 0 320 1e0 0 3
+<rule>
+<ctrl> 1 "uiPodAudio" "uiPodAudio" 0 0 1
+<rule>
+<prop>
+1013b 
+<ctrl> 2 "uCs42151" "uCs42151" 0 0 0
+<rule>
+<prop>
+<ctrl> 3 "RectAll" "Rect" 0 0 4
+<rule>
+<prop>
+0 
+0 
+320 
+1e0 

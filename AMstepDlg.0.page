@@ -1,0 +1,161 @@
+<page> 44 "AMstepDlg" "NULL" 0 0 0 320 1e0 6 1 1
+<rule>
+38d101 4 4 4 1 480427 0 1 0 1 1 480809 0 4 0 1 6 110817ff 0 ff000000 0 1 1 480801 0 3 0 1 6 11081bff 2 20007 1 11081c00 0 9 0 1cc 0 64 0 aa 0 a4 0 16 1 "" 0 ee 3 48b810 0 16 
+162f01 2 2e 2 6 0 1 0 1 3 11080c0c 1 "uIconButton_yes" 10 6 0 1 0 1 3 48103f 0 9 5 2 48103f 0 a 2 481046 0 212 2 481048 0 222e 2 48106e 0 0 2 48106f 0 2 1 5 2 48103f 0 9 2 481046 0 213 2 481048 0 222e 2 48106e 0 1 2 48106f 0 3 2 6 0 1 0 1 3 48101f 0 1 2 2 48101f 0 8 1 481803 0 2 1 "AlarmASourceid" 3 48101f 1 1 6 0 1 0 1 3 48101f 0 2 2 2 48101f 0 9 1 481803 0 2 1 "AlarmASourceid" 3 48101f 1 0 2 2 6 0 1 0 1 3 481025 0 1 2 2 481025 0 8 1 481803 0 2 1 "AlarmBSourceid" 3 481025 1 1 6 0 1 0 1 3 481025 0 2 2 2 481025 0 9 1 481803 0 2 1 "AlarmBSourceid" 3 481025 1 0 2 2 6 0 1 0 1 3 48102f 0 1 2 6 0 1 0 1 3 48102e 0 2 1 1 488406 0 1 3 481046 1 1 1 488406 0 1 3 481048 2 3 38d105 43fffff 5 1 "presetsave" 0 0 1 "" 0 0 0 0 1 0 2 2 481049 0 0 2 481047 0 0 1 48a001 0 2 0 0 0 2 3 38d105 57fffff 5 1 "PresetNone" 0 0 1 "" 3 48101d 0 0 2 481058 0 0 1 480405 0 1 6 c3fffff 1 480405 0 1 6 113fffff 1 480400 0 1 6 ebfffff 3 38d101 ebfffff 0 1 480403 0 7 6 ebfffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 5 9 1 0 2 6 0 1 0 1 3 11080c0c 1 "uIconButton_no" 4 1 480405 0 1 6 113fffff 1 480403 0 7 6 c3fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 5 9 1 0 2 
+38d102 5 5 5 1 48041b 0 1 6 113fffff 1 480400 0 1 6 43fffff 1 480400 0 1 6 c3fffff 2 48a40c 0 0 1 480809 0 4 0 1 6 110817ff 0 0 0 1 
+38d103 3 3 3 1 480404 0 1 1 "keyout" 1 480403 0 7 6 113fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 2 48a40c 0 1 
+4d5fbe00 4 19 4 1 480404 0 1 1 "keyout" 6 0 2 0 1 5 0 0 11 1 1 5 0 0 9b 4 1 480405 0 1 6 113fffff 1 480403 0 7 6 c3fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 5 9 1 0 2 6 0 1 0 1 5 0 0 97 7 1 480c00 481038 2 3 481038 0 5 6 0 1 0 3 3 481038 0 f 3 2 481038 0 0 1 480404 0 1 1 "night2sleep" 2 481057 0 0 1 3 1 480404 0 1 1 "night2sleep" 2 481057 0 0 6 0 1 0 1 3 481038 0 f 2 2 481057 0 1 6 0 1 0 1 3 481035 0 0 2 1 480404 0 1 1 "night2sleep" 1 480403 0 7 6 ffffffff 1 "night2sleep" 0 32 1 "" 0 0 0 0 0 0 1 0 2 1 0 2 2 1 481803 0 2 1 "BackLightCx" 3 481038 1 485c00 0 1 3 481038 1 480403 0 7 6 113fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 5 9 1 0 2 1 480403 0 7 6 113fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 
+38d105 1 7 1 6 0 1 0 1 5 0 1 "keyout" 6 1 480405 0 1 6 43fffff 1 480405 0 1 6 c3fffff 1 480405 0 1 6 ebfffff 1 480405 0 1 6 113fffff 1 48042e 0 4 3 48104d 0 1 0 0 0 0 2 481032 0 0 1 0 2 
+<window> 1 "win" 0 0 0 320 1e0 0 7
+<rule>
+<ctrl> 1 "uIconButton_yes" "uIconButton" 0 0 30
+<rule>
+<prop>
+e3 
+10d 
+92 
+3d 
+0 
+"" 
+0 
+20005 
+ffffffff 
+0 
+0 
+c 
+fffff0 
+160000 
+0 
+0 
+20006 
+ffffffff 
+0 
+0 
+c 
+fffff0 
+160000 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 2 "uIconButton_no" "uIconButton" 0 0 30
+<rule>
+<prop>
+1ab 
+10d 
+92 
+3d 
+1 
+"" 
+0 
+20005 
+ffffffff 
+0 
+0 
+d 
+fffff0 
+160000 
+0 
+0 
+20006 
+ffffffff 
+0 
+0 
+d 
+fffff0 
+160000 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 3 "ButtonGroup" "ButtonGroup" 0 1 13
+<rule>
+4d5fbe00 1 3 1 6 0 2 0 1 5 0 0 c 1 1 5 0 0 d 2 5 9 1 0 2 
+<prop>
+a 
+a 
+14 
+14 
+0 
+0 
+0 
+0 
+0 
+4 
+0 
+0 
+"" 
+0 
+0 
+0
+2
+110807ff 
+11080bff 
+<ctrl> 4 "Rect_str" "Rect" 0 0 4
+<rule>
+<prop>
+c6 
+b3 
+1ac 
+2f 
+<ctrl> 5 "rect_all" "Rect" 0 0 4
+<rule>
+<prop>
+0 
+0 
+320 
+1e0 
+<ctrl> 6 "Rect_icon" "Rect" 0 0 4
+<rule>
+<prop>
+8a 
+8e 
+20c 
+c4 
+<ctrl> 7 "udraw_text" "udraw_text" 0 0 2
+<rule>
+<prop>
+0 
+0 

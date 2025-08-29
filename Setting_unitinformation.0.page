@@ -1,0 +1,190 @@
+<page> 32 "Setting_unitinformation" "Palet1.plt" 0 0 0 320 1e0 6 1 0
+<rule>
+38d101 3 3 3 1 489800 0 1 0 31 1 48042e 0 4 6 43fffff 0 1 0 0 0 0 2 48104b 6 cbfffff 
+4d5fbe00 4 e 4 1 480404 0 1 1 "keyout" 6 0 1 0 1 3 48105f 0 1 2 6 0 1 0 2 5 0 0 10 1 5 1 0 2 9 1 0 2 6 0 2 0 1 5 0 0 9b 1 1 5 0 0 10 7 1 480405 0 1 6 cbfffff 1 480400 0 1 6 b3fffff 1 b080404 0 0 3 38d105 b3fffff 5 1 "drawbar" 0 0 1 "" 0 0 0 0 1 480403 0 7 6 b3fffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 5 9 1 0 2 1 480403 0 7 6 cbfffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 
+38d102 3 3 3 1 480404 0 1 1 "keyout" 1 480809 0 4 0 0 6 c8807ff 0 0 0 1 2 48104b 6 b3fffff 
+38d103 10 28 10 2 c881000 0 ffffffff 2 c881001 0 ffffffff 2 c881002 0 ffffffff 2 c881003 0 ffffffff 1 480403 0 7 6 cbfffff 1 "keyout" 0 258 1 "" 0 0 0 0 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 1 482805 0 2 3 c88100c 0 0 2 c881004 3 482805 2 c881005 3 482804 1 480c04 c881c02 2 3 c881004 3 c881005 1 488000 c881c01 1 3 c88100c 1 c880802 0 0 2 c880800 6 c880fff a c880800 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 1 1 c88080a 0 0 1 1 6 0 1 0 1 0 1 0 1 7 2 c881e05 0 0 0 1 c882002 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 2 c882000 6 c8817ff a c882000 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 2 1 c88200a 0 0 1 1 6 0 1 0 1 0 1 0 1 7 2 c881e05 1 0 0 1 c882402 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 2 c882400 6 c881bff a c882400 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 3 1 c88240a 0 0 1 2 2 c881e05 2 0 0 1 c881c00 0 0 2 1 0 2 2 1 0 2 2 
+33968001 1 25 1 6 0 1 0 1 3 c881003 0 1 7 2 c881e05 0 5 0 1 c882002 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 2 c882000 6 c8817ff a c882000 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 2 1 c88200a 0 0 1 1 6 0 1 0 1 0 1 0 1 7 2 c881e05 1 0 0 1 c882402 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 2 c882400 6 c881bff a c882400 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 3 1 c88240a 0 0 1 2 2 c881e05 2 0 0 1 c881c00 0 0 2 1 0 2 2 1 1 6 0 1 0 1 3 c881003 0 2 7 2 c881e05 1 5 0 1 c882402 0 0 1 483000 c88100c 3 0 1 0 2 1 "NAND" 2 c882400 6 c881bff a c882400 0 2 3 c88100c 0 8 1 481407 c881008 1 1 "s_result" 6 0 1 0 1 3 c881008 1 "SUCCESS" 2 2 c881003 0 3 1 c88240a 0 0 1 2 2 c881e05 2 0 0 1 c881c00 0 0 2 1 1 6 0 1 0 1 3 c881003 0 3 2 2 c881e05 2 5 0 1 c881c00 0 0 1 0 2 2 2 
+38d105 1 4 1 6 0 1 0 1 5 0 1 "keyout" 3 1 480405 0 1 6 cbfffff 1 480405 0 1 6 b3fffff 1 48042e 0 4 3 48104d 0 1 0 0 0 0 1 0 2 
+<window> 1 "win" 0 0 0 320 1e0 0 c
+<rule>
+<ctrl> 1 "Rect_all" "Rect" 0 0 4
+<rule>
+<prop>
+18d 
+d1 
+193 
+e3 
+<ctrl> 2 "FileListAudio" "GeneralFileList" 0 0 b
+<rule>
+<prop>
+c880fff 
+0 
+0 
+0 
+c882bff 
+"" 
+0 
+0 
+0 
+0 
+"" 
+<ctrl> 3 "FileTreeAudio" "GeneralFileTree" 0 0 13
+<rule>
+<prop>
+482fff 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+0 
+0 
+0 
+0 
+1
+"Audio" 
+0
+<ctrl> 4 "Variables" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 5 "FileTreeVideo" "GeneralFileTree" 0 0 15
+<rule>
+<prop>
+482fff 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+0 
+0 
+0 
+0 
+3
+"Video" 
+"Video2" 
+"Video3" 
+0
+<ctrl> 6 "FileTreePhoto" "GeneralFileTree" 0 0 13
+<rule>
+<prop>
+482fff 
+0 
+1 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+0 
+0 
+0 
+0 
+1
+"Photo" 
+0
+<ctrl> 7 "uUint_Info" "uUint_Info" 0 1 13
+<rule>
+4d5fbe00 1 3 1 6 0 2 0 1 5 0 0 d 1 1 5 0 0 c 2 5 9 1 0 2 
+<prop>
+10113 
+0 
+0 
+4
+0 
+1 
+2 
+3 
+6
+b5 
+b6 
+b7 
+b8 
+b9 
+ba 
+3
+0 
+0 
+0 
+<ctrl> 8 "FileListVideo" "GeneralFileList" 0 0 b
+<rule>
+<prop>
+c8817ff 
+0 
+0 
+0 
+c882fff 
+"" 
+0 
+0 
+0 
+0 
+"" 
+<ctrl> 9 "FileListPhoto" "GeneralFileList" 0 0 b
+<rule>
+<prop>
+c881bff 
+0 
+0 
+0 
+c8833ff 
+"" 
+0 
+0 
+0 
+0 
+"" 
+<ctrl> a "EntryTableAudio" "StringTable" 0 0 4
+<rule>
+<prop>
+0 
+0
+0
+0
+<ctrl> b "EntryTableVideo" "StringTable" 0 0 4
+<rule>
+<prop>
+0 
+0
+0
+0
+<ctrl> c "EntryTablePhoto" "StringTable" 0 0 4
+<rule>
+<prop>
+0 
+0
+0
+0

@@ -1,0 +1,109 @@
+<page> 3 "ErrorDlg" "NULL" 0 0 0 320 1e0 9 1 1
+<rule>
+38d103 8 d 8 2 481080 0 1 2 48a40c 0 1 1 481403 c80408 1 1 "ErrorType" 1 481403 c80409 1 1 "ErrorMsg" 6 0 1 0 1 3 c80408 1 "UnmountIpodMusicErr" 1 1 48b000 0 0 1 1 6 0 1 0 1 3 c80408 1 "PlayVideoErr" 1 1 481402 c80400 1 1 "VideoPlayFlag" 1 1 6 0 1 0 1 3 c80408 1 "PlayMusicErr" 1 1 481402 c80400 1 1 "PlayMusicErrParm" 1 0 2 2 2 9 1 489800 0 1 0 f 1 48042e 0 4 6 43fffff 0 1 0 0 0 0 
+38d101 9 1a 9 1 480809 0 4 0 1 6 c813ff 0 ff000000 0 1 1 c81400 0 0 6 0 1 0 1 3 c80408 1 "SelectExceedErr" 2 2 c81800 0 5 1 c81800 0 9 0 20c 0 77 0 8a 0 b2 0 16 1 "" 0 9 3 48b810 0 16 1 1 1 c81800 0 9 0 20c 0 77 0 8a 0 b2 0 16 3 c80409 0 ffffffff 3 48b810 0 16 2 1 480404 0 1 1 "error_timer" 1 480404 0 1 1 "QuickInput" 6 0 1 0 2 3 48104f 0 1 1 1 480403 0 7 6 ffffff 1 "error_timer" 0 1e 1 "" 0 0 0 0 0 0 1 1 1 480403 0 7 6 ffffff 1 "error_timer" 0 3 1 "" 0 0 0 0 0 0 2 1 480403 0 7 6 ffffff 1 "QuickInput" 0 a 1 "" 0 0 0 0 0 0 6 0 2 0 1 3 481057 0 1 0 1 3 481035 0 0 2 1 480404 0 1 1 "night2sleep" 1 480403 0 7 6 ffffffff 1 "night2sleep" 0 32 1 "" 0 0 0 0 0 0 1 0 2 6 0 1 0 1 3 c80408 1 "PlayPhotoErr" 1 6 0 1 0 1 3 7c82009 1 "FailFlag" 2 2 7c82009 1 "__NULL__" 6 0 1 0 1 3 7c82008 1 "right" 3 2 7c82003 0 1 2 7c82008 1 "right" 1 7c80c04 0 1 0 0 1 1 6 0 1 0 1 3 7c82008 1 "left" 3 2 7c82003 0 1 2 7c82008 1 "left" 1 7c80c05 0 1 0 0 1 0 2 2 1 0 2 1 0 2 
+38d102 7 7 7 2 481080 0 0 2 48a40c 0 0 1 480809 0 4 0 1 6 c813ff 0 0 0 1 1 480404 0 1 1 "QuickInput" 1 480404 0 1 1 "error_timer" 9 1 480405 0 1 6 43fffff 
+4d5fbe00 3 68 3 6 0 2 0 1 3 481057 0 1 0 1 3 481035 0 0 2 1 480404 0 1 1 "night2sleep" 1 480403 0 7 6 ffffffff 1 "night2sleep" 0 32 1 "" 0 0 0 0 0 0 1 0 2 6 0 2 0 2 5 0 0 97 0 1 3 c80401 0 1 2 1 480404 0 1 1 "error_timer" 6 0 5 0 1 3 c80408 1 "NoMusicErr" 1 1 3 c80408 1 "NoPhotoErr" 1 1 3 c80408 1 "NoVideoErr" 1 1 3 c80408 1 "NoImportFileErr" 1 1 3 c80408 1 "NoDelFileErr" 3 6 0 2 0 1 3 c80408 1 "NoPhotoErr" 0 1 3 481015 0 1 2 1 480405 0 1 6 ffffff 1 48042e 0 4 6 d7fffff 0 1 0 0 0 0 1 1 6 0 1 0 1 3 c80408 1 "NoDelFileErr" 3 2 481032 0 7 1 480405 0 1 6 ffffff 1 48042e 0 4 6 b3fffff 0 2 0 0 0 0 1 2 1 480405 0 1 6 ffffff 1 48042e 0 4 6 d7fffff 0 1 0 0 0 0 2 2 5 9 1 1 6 0 7 0 1 3 c80408 1 "PlayMusicErr" 1 1 3 c80408 1 "PlayPhotoErr" 1 1 3 c80408 1 "PlayVideoErr" 1 1 3 c80408 1 "UnmountErr" 1 1 3 c80408 1 "SystemErr" 1 1 3 c80408 1 "MusicNotSupportErr" 1 1 3 c80408 1 "VideoNotSupportErr" 3 6 0 1 0 1 3 c80408 1 "PlayVideoErr" 1 6 0 1 0 4 3 c80400 0 2 4 1 481401 0 4 1 "ErrorToVideo" 1 "Tovideo" 6 a7fffff 0 0 1 480405 0 1 6 ffffff 2 481012 1 "video" 1 48042e 0 4 6 a7fffff 0 1 0 0 0 0 1 4 1 480405 0 1 6 ffffff 1 480400 0 1 6 a3fffff 1 480404 0 1 1 "VideoPlayGetFocus" 1 480403 0 7 6 a3fffff 1 "VideoPlayGetFocus" 0 0 1 "" 0 0 0 0 0 0 2 1 1 6 0 1 0 1 3 c80408 1 "PlayMusicErr" 2 1 480405 0 1 6 ffffff 1 480400 0 1 6 6ffffff 1 1 6 0 1 0 1 3 c80408 1 "PlayPhotoErr" 2 1 480405 0 1 6 ffffff 1 480400 0 1 6 7ffffff 1 2 1 480405 0 1 6 ffffff 1 48042e 0 4 3 48104e 0 1 0 0 0 0 2 2 2 5 9 1 1 6 0 1 0 1 3 c80408 1 "CannotRecordErr" 4 1 480405 0 1 6 ffffff 1 480400 0 1 6 affffff 5 9 1 1 6 0 1 0 1 3 c80408 1 "RecordErr" 4 1 480405 0 1 6 ffffff 1 480400 0 1 6 affffff 5 9 1 1 6 0 4 0 1 3 c80408 1 "SelectExceedErr" 1 1 3 c80408 1 "CopyDelUnexceedErr" 1 1 3 c80408 1 "CopyDelExceedErr" 1 1 3 c80408 1 "AudioIsPlayingOnImportErr" 5 1 480405 0 1 6 ffffff 1 480400 0 1 6 83fffff 3 4d5fbe00 83fffff 2 0 e 1 "" 5 9 1 1 6 0 1 0 1 3 c80408 1 "UnmountIpodMusicErr" 7 1 480405 0 1 6 ffffff 1 48b000 0 0 2 481035 0 0 6 0 1 0 1 3 481053 1 "/mnt/IPOD/ipod01" 1 2 481053 3 481054 1 0 2 1 48042e 0 4 6 9ffffff 0 2 0 0 0 0 5 9 1 1 6 0 1 0 1 3 c80408 1 "UnmountPhotoErr" 6 1 480405 0 1 6 ffffff 1 480400 0 1 3 48104b 1 480400 0 1 6 43fffff 3 38d105 ffffffff 5 1 "picumount" 0 0 1 "" 0 0 0 0 5 9 1 1 6 0 1 0 1 3 c80408 1 "DeviceSelectErr" 4 1 480405 0 1 6 ffffff 1 48042e 0 4 6 d7fffff 0 1 0 0 0 0 5 9 1 1 6 0 1 0 1 3 c80408 1 "SetFunwakeupErr" 2 1 480405 0 1 6 ffffff 1 480400 0 1 6 7ffffff 1 1 6 0 1 0 1 3 c80408 1 "CannotPlayErr" 2 1 480405 0 1 6 ffffff 1 480400 0 1 6 affffff 1 1 6 0 1 0 1 3 c80408 1 "PlayMusicForFail" 2 1 480405 0 1 6 ffffff 1 48042e 0 4 6 9ffffff 0 2 0 0 0 0 1 1 6 0 1 0 1 3 c80408 1 "PlayMusicForFailFont" 2 1 480405 0 1 6 ffffff 1 480400 0 1 6 43fffff 1 0 2 2 2 2 2 2 2 2 2 2 2 2 1 0 2 6 0 2 0 1 5 0 0 97 0 2 3 48104f 0 1 6 1 480c00 481038 2 3 481038 0 5 6 0 1 0 3 3 481038 0 f 3 2 481038 0 0 1 480404 0 1 1 "night2sleep" 2 481057 0 0 1 3 1 480404 0 1 1 "night2sleep" 2 481057 0 0 6 0 1 0 1 3 481038 0 f 2 2 481057 0 1 6 0 1 0 1 3 481035 0 0 2 1 480404 0 1 1 "night2sleep" 1 480403 0 7 6 ffffffff 1 "night2sleep" 0 32 1 "" 0 0 0 0 0 0 1 0 2 1 0 2 2 1 485c00 0 1 3 481038 1 481803 0 2 1 "BackLightCx" 3 481038 5 9 1 0 2 
+38d105 3 5b 3 6 0 1 0 1 5 0 1 "QuickInput" 1 2 c80401 0 1 1 0 2 6 0 1 0 1 5 0 1 "error_timer" 2 2 c80401 0 1 3 4d5fbe00 ffffff 2 0 10 1 "" 1 0 2 6 0 2 0 1 5 0 1 "Sleep_Timer" 1 1 5 0 1 "night2sleep" 6 6 0 1 0 1 3 48106a 0 1 2 2 481036 0 0 9 1 0 2 6 0 1 0 1 3 481067 0 1 2 2 481068 0 1 9 1 0 2 1 488012 0 0 6 0 1 0 1 0 0 0 0 9 1 480404 0 1 1 "Sleep_Timer" 1 480404 0 1 1 "night2sleep" 2 481038 0 f 1 481803 0 2 1 "BackLightCx" 3 481038 1 485c00 0 1 3 481038 2 481036 0 0 2 48104f 0 1 2 481057 0 0 2 48a40b 0 1 1 0 2 6 0 1 0 1 0 0 0 0 4 1 487c2e 0 1 0 1 6 0 1 0 1 3 481035 0 1 1 6 0 1 0 1 3 481053 1 "/mnt/IPOD/ipod01" 4 1 48a40d 0 0 1 48a408 0 0 1 48a416 0 0 2 481053 3 481054 1 1 1 482002 0 1 0 0 2 1 1 6 0 1 0 3 3 481035 0 1 1 1 488401 0 0 1 0 2 2 2 48102f 0 0 2 481035 0 0 1 0 2 6 0 3 0 2 3 48104b 6 33fffff 0 2 3 48104b 6 9ffffff 0 2 3 48104b 6 3bfffff 3 6 0 1 0 1 0 0 0 0 31 1 48040d 0 1 6 d7fffff 1 480405 0 1 6 33fffff 1 480405 0 1 6 3bfffff 1 480405 0 1 6 37fffff 1 480405 0 1 6 6ffffff 1 480405 0 1 6 a3fffff 1 480405 0 1 6 a7fffff 1 480405 0 1 6 77fffff 1 480405 0 1 6 73fffff 1 480405 0 1 6 7bfffff 1 480405 0 1 6 7ffffff 1 480405 0 1 6 dbfffff 1 480405 0 1 6 87fffff 1 480405 0 1 6 8ffffff 1 480405 0 1 6 8bfffff 1 480405 0 1 6 83fffff 1 480405 0 1 6 abfffff 1 480405 0 1 6 affffff 1 480405 0 1 6 3ffffff 1 480405 0 1 6 4bfffff 1 480405 0 1 6 53fffff 1 480405 0 1 6 5bfffff 1 480405 0 1 6 5ffffff 1 480405 0 1 6 63fffff 1 480405 0 1 6 93fffff 1 480405 0 1 6 97fffff 1 480405 0 1 6 47fffff 1 480405 0 1 6 b3fffff 1 480405 0 1 6 bfffff 1 480405 0 1 6 ffffff 1 480405 0 1 6 13fffff 1 480405 0 1 6 1bfffff 1 480405 0 1 6 1ffffff 1 480405 0 1 6 23fffff 1 480405 0 1 6 27fffff 1 480405 0 1 6 2bfffff 1 480405 0 1 6 9bfffff 1 480405 0 1 6 6bfffff 1 480405 0 1 6 cffffff 1 480405 0 1 6 e3fffff 1 480405 0 1 6 e7fffff 1 480405 0 1 6 ebfffff 1 480405 0 1 6 effffff 1 480405 0 1 6 b7fffff 1 480405 0 1 6 bbfffff 1 480405 0 1 6 bffffff 1 480405 0 1 6 c3fffff 1 480405 0 1 6 c7fffff 1 480405 0 1 6 dffffff 1 0 2 1 480405 0 1 6 43fffff 6 0 1 0 1 3 481033 0 1 1 1 48042e 0 4 3 48104e 0 2 0 0 0 0 1 1 1 48042c 0 2 3 48104e 0 2 2 1 0 2 1 0 2 
+15287201 1 1 1 9 
+b0d01809 2 2 2 2 c80401 0 1 3 4d5fbe00 ffffff 2 0 10 1 "" 
+15287202 3 b 3 1 480411 c80407 1 6 43fffff 6 0 1 0 1 3 c80407 0 0 1 6 0 5 0 1 3 482012 0 0 0 1 7 0 6 4823ff 0 1 3 481041 0 0 0 1 3 481079 0 0 0 1 3 48107b 0 0 4 3 15287206 ffffff 0 2 c80402 0 1 1 482002 0 1 0 0 5 1 1 6 0 1 0 1 3 48107b 0 1 2 2 48107b 0 0 5 1 0 2 2 1 0 2 9 
+15287206 2 12 2 1 480411 c80407 1 6 43fffff 6 0 1 0 1 3 c80407 0 0 1 6 0 2 0 1 7 0 6 48a7ff 0 1 3 48a402 0 0 4 2 481035 0 0 2 481c07 0 0 6 0 1 0 2 3 48104b 6 9ffffff 3 1 48b000 0 0 1 48c004 0 1 6 d7fffff 1 48042e 0 4 6 9ffffff 0 2 0 0 0 0 1 0 2 5 1 1 6 0 2 0 1 3 481041 0 0 0 1 3 c80402 0 1 5 2 c80402 0 0 2 481035 0 0 2 481c07 0 0 6 0 1 0 2 3 48104b 6 9ffffff 2 1 48c004 0 1 6 d7fffff 1 48042e 0 4 6 9ffffff 0 2 0 0 0 0 1 0 2 5 1 0 2 2 1 0 2 
+<window> 1 "Win" 0 0 0 320 1e0 0 6
+<rule>
+<ctrl> 1 "val" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 2 "rectText" "Rect" 0 0 4
+<rule>
+<prop>
+91 
+b2 
+200 
+77 
+<ctrl> 3 "rectBG" "Rect" 0 0 4
+<rule>
+<prop>
+8a 
+b2 
+20c 
+77 
+<ctrl> 4 "rectAll" "Rect" 0 0 4
+<rule>
+<prop>
+0 
+0 
+320 
+1e0 
+<ctrl> 5 "ibtnBG" "uIconButton" 0 0 30
+<rule>
+<prop>
+8a 
+b2 
+20c 
+77 
+ffffffff 
+"" 
+0 
+20004 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+20004 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 6 "udraw_text_1" "udraw_text" 0 0 2
+<rule>
+<prop>
+0 
+0 

@@ -1,0 +1,25 @@
+<page> 43 "AlarmDelay" "Palet1.plt" 0 0 0 14 14 2 1 0
+<rule>
+38d105 1 6 1 6 0 1 0 1 5 0 1 "delayover" 4 6 0 2 0 1 3 10c80400 0 1 1 1 3 10c80400 0 0 1 1 481400 0 4 1 "Alarming" 3 10c80400 6 4ffffff 0 0 1 0 2 1 480405 0 1 6 10ffffff 1 481400 0 4 1 "State" 0 0 6 4ffffff 0 0 1 48042e 0 4 6 4ffffff 0 2 0 0 0 0 1 0 2 
+38d103 2 2 2 1 481402 10c80400 1 1 "Alarming" 1 480403 0 7 6 10ffffff 1 "delayover" 0 2 1 "" 0 0 0 0 0 0 
+<window> 1 "Win" 0 0 0 14 14 0 1
+<rule>
+<ctrl> 1 "state" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 

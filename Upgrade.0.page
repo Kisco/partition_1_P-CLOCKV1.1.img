@@ -1,0 +1,206 @@
+<page> 34 "Upgrade" "Palet1.plt" 0 0 0 320 1e0 9 1 0
+<rule>
+38d101 3 3 3 1 480413 0 2 2 20071 0 0 1 480804 0 5 0 0 1 "Do you want to upgrade?" 6 d080bff 0 1 0 12 1 d082005 0 1 1 "ibtnNo" 
+162f01 2 20 2 6 0 1 0 1 3 d080c01 0 1 2 5 9 1 0 2 6 0 1 0 1 3 d08200c 1 "ibtnYes" 2 1 481403 d080c08 1 1 "UpgradePath" 6 0 1 0 2 3 d080c08 1 "__NULL__" 2 1 d080407 d080c00 1 3 d080c08 6 0 1 0 2 3 d080c00 0 ffffffff 8 1 480809 0 4 0 0 6 d080bff 0 0 0 1 2 d080c01 0 1 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 d081801 0 0 1 d081c01 0 0 1 d080405 0 0 1 d080406 0 0 9 1 6 2 d080c01 0 2 1 d081801 0 0 1 d081c01 0 0 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480804 0 5 0 0 1 "The upgrade file is invalide,any key to back to HomeMenu!" 6 d080bff 0 5 0 12 9 2 1 0 2 1 1 6 0 1 0 1 3 d08200c 1 "ibtnNo" 5 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 d081801 0 0 1 d081c01 0 0 1 480405 0 1 6 d3fffff 1 48042c 0 2 6 6bfffff 0 1 1 1 6 0 1 0 1 3 d08200c 1 "ibtnExit" 3 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480405 0 1 6 d3fffff 1 48042c 0 2 6 6bfffff 0 1 1 0 2 2 2 
+3d8400 2 2 2 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480804 0 5 0 0 1 "Upgrade     Finished!" 6 d080bff 0 1 0 12 
+3d8401 4 4 4 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480803 0 5 0 0 1 "Upgrade Check Ok!" 6 d080bff 0 1 0 12 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480803 0 5 0 0 1 "Do not pull out the Card,Upgrading......" 6 d080bff 0 5 0 12 
+3d8402 2 2 2 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480803 0 5 0 0 1 "Upgrade Check Error!" 6 d080bff 0 5 0 12 
+3d8404 2 2 2 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480803 0 5 0 0 1 "Upgrade Failed" 6 d080bff 0 5 0 12 
+4d5fbe00 2 8 2 6 0 1 0 1 3 d080c01 0 1 2 5 9 1 0 2 6 0 1 0 1 3 d080c01 0 2 4 1 48042c 0 2 6 6bfffff 0 1 1 480405 0 1 6 d3fffff 5 9 1 0 2 
+38d102 1 1 1 1 480809 0 4 0 0 6 d082fff 0 0 0 1 
+3d8403 2 2 2 1 480809 0 4 0 0 6 d080bff 0 0 0 1 1 480803 0 5 0 0 1 "Upgrade Failed" 6 d080bff 0 5 0 12 
+<window> 1 "Win" 0 0 0 320 1e0 0 b
+<rule>
+<ctrl> 1 "Upgrade" "Upgrade" 0 0 9
+<rule>
+<prop>
+d0813ff 
+"" 
+d0817ff 
+0
+0
+0
+0
+0
+0
+<ctrl> 2 "rectMsg" "Rect" 0 0 4
+<rule>
+<prop>
+a3 
+9b 
+202 
+2f 
+<ctrl> 3 "varUpgrade" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+<ctrl> 4 "uBsp" "uBsp" 0 0 1
+<rule>
+<prop>
+0 
+<ctrl> 5 "uUpgradeHandle" "uUpgradeHandle" 0 0 0
+<rule>
+<prop>
+<ctrl> 6 "ibtnYes" "uIconButton" 0 0 30
+<rule>
+<prop>
+f6 
+e6 
+93 
+3e 
+0 
+"" 
+0 
+10115 
+ffffffff 
+0 
+0 
+c 
+a 
+160000 
+34 
+16 
+10116 
+ffffffff 
+0 
+0 
+c 
+a 
+160000 
+34 
+16 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 7 "ibtnNo" "uIconButton" 0 0 30
+<rule>
+<prop>
+1c7 
+e6 
+93 
+3e 
+1 
+"" 
+0 
+10115 
+ffffffff 
+0 
+0 
+d 
+a 
+160000 
+39 
+16 
+10116 
+ffffffff 
+0 
+0 
+d 
+a 
+160000 
+39 
+16 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+ffffffff 
+ffffffff 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+<ctrl> 8 "ButtonGroupChoose" "ButtonGroup" 0 0 16
+<rule>
+<prop>
+e 
+7a 
+14 
+14 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+0 
+0 
+3
+d0827ff 
+d082bff 
+d082fff 
+2
+d081bff 
+d081fff 
+<ctrl> 9 "rectYes" "Rect" 0 0 4
+<rule>
+<prop>
+f6 
+e6 
+93 
+3e 
+<ctrl> a "rectNo" "Rect" 0 0 4
+<rule>
+<prop>
+1c7 
+e6 
+93 
+3e 
+<ctrl> b "rectExit" "Rect" 0 0 4
+<rule>
+<prop>
+84 
+94 
+243 
+9e 

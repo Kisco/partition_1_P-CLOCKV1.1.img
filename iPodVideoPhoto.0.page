@@ -1,0 +1,33 @@
+<page> 3d "iPodVideoPhoto" "Palet1.plt" 0 0 0 320 1e0 2 1 0
+<rule>
+38d101 4 7 4 1 481402 f480c00 1 1 "IPOD_TYPE" 6 0 1 0 1 3 f480c00 0 1 1 1 48a419 0 1 0 0 1 1 6 0 1 0 1 3 f480c00 0 2 1 1 48a41f 0 0 1 0 2 2 1 f480402 0 0 1 f480801 0 1 0 0 
+4d5fbe00 1 c 1 6 0 1 0 1 5 0 0 9b 3 1 f480802 0 0 1 480405 0 1 6 f7fffff 1 48042e 0 4 6 abfffff 0 2 0 0 0 0 1 1 6 0 1 0 1 5 0 0 e 1 1 48a41c 0 1 0 0 1 1 6 0 1 0 1 5 0 0 f 1 1 48a41b 0 1 0 0 1 1 6 0 1 0 1 5 0 0 10 1 1 48a41a 0 1 0 0 1 1 6 0 1 0 1 5 0 0 93 1 1 48a41a 0 1 0 0 1 0 2 2 2 2 2 
+<window> 1 "Win" 0 0 0 320 1e0 0 3
+<rule>
+<ctrl> 1 "uTvp5150" "uTvp5150" 0 0 2
+<rule>
+<prop>
+ffffffff 
+0 
+<ctrl> 2 "uCcir656" "uCcir656" 0 0 0
+<rule>
+<prop>
+<ctrl> 3 "Variables" "Variables" 0 0 10
+<rule>
+<prop>
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
+"" 
